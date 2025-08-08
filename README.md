@@ -1,0 +1,2 @@
+# SMD_CCD_HW
+/*CCD_HW*/
