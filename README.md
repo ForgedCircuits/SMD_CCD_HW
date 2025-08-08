@@ -1,2 +1,2 @@
 # SMD_CCD_HW
-Cancer Cell Detection Hwardware Design
+Cancer Cell Detection Hardware Design
