@@ -1,2 +1,64 @@
 # SMD_CCD_HW
-Cancer Cell Detection Hardware Design
+Hardware design and develeopment related to **Cancer Cell Detection**, For **Sagar Medical Devices**
+
+# 1 Basic Github Commands and Flow
+* git init :-Initialize a local Git repository
+* git clone [Replace SSH URL from the repo]	:-Create a local copy of a remote repository
+* git branch [branch name]	:-Create a new branch
+
+**Modify Necessary changes to files or folders**
+
+* git add [file-name.txt]	:-Add a file to the staging area
+* git commit -m "[commit message]" :-Commit changes
+* git push origin [branch name]	:-Push a branch to your remote repository
+
+**If the current branch is the final working verion of the project**
+
+* git merge [current branch] main	:-Merge a branch into a main branch
+
+
+# 2 Complete Github Commands
+A list of complete github commands for future reference
+
+# 2.1 Getting & Creating Projects
+* git init :-Initialize a local Git repository
+* git clone [Replace SSH URL from the repo]	:-Create a local copy of a remote repository
+  
+# 2.2 Basic Snapshotting
+* git status :-Check status
+* git add [file-name.txt]	:-Add a file to the staging area
+* git add . :-Add all new and changed files to the staging area
+* git commit -m "[commit message]" :-Commit changes
+* git rm -r [file-name.txt]	:-Remove a file (or folder)
+* git remote -v	:-View the remote repository of the currently working file or directory
+
+# 2.3 Branching & Merging
+* git branch	:-List branches (the asterisk denotes the current branch)
+* git branch [branch name]	:-Create a new branch
+* git branch -d [branch name]	:-Delete a branch
+* git checkout -b [branch name]	:-Create a new branch and switch to it
+* git checkout -b [branch name] origin/[branch name]	:-Clone a remote branch and switch to it
+* git branch -m [old branch name] [new branch name]	:-Rename a local branch
+* git checkout [branch name]	:-Switch to a branch
+* git checkout -	:- Switch to the branch last checked out
+* git checkout -- [file-name.txt]	:-Discard changes to a file
+* git merge [branch name]	:-Merge a branch into the active branch
+* git merge [source branch] [target branch]	:-Merge a branch into a target branch
+* git stash	:-Stash changes in a dirty working directory
+* git stash clear	:-Remove all stashed entries
+* git stash pop	:-Apply latest stash to working directory
+
+# 2.4 Sharing & Updating Projects
+* git push origin [branch name]	:-Push a branch to your remote repository
+* git push -u origin [branch name]	:-Push changes to remote repository (and remember the branch)
+* git push	:-Push changes to remote repository (remembered branch)
+* git push origin --delete [branch name]	:-Delete a remote branch
+* git pull	:-Update local repository to the newest commit
+* git pull origin [branch name]	:-Pull changes from remote repository
+
+# 2.5 Inspection & Comparison
+* git log	:-View changes
+* git log --summary	:-View changes (detailed)
+* git log --oneline	:-View changes (briefly)
+* git diff [source branch] [target branch]	:-Preview changes before merging
+
