@@ -2,6 +2,9 @@
 Hardware design and develeopment related to **Cancer Cell Detection**, For **Sagar Medical Devices**
 
 # 1 Basic Github Commands and Flow
+**IMPORTANT:** Make sure to add GitHub SSH Keys to your local system before cloning the repository.
+Guide: [Add SSH key to GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+
 * git init :-Initialize a local Git repository
 * git clone [Replace SSH URL from the repo]	:-Create a local copy of a remote repository
 * git branch [branch name]	:-Create a new branch
